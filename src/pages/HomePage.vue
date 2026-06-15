@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeroSection />
+    <Hero />
     <FeaturesSection />
     <Testimonials />
     <PricingSection />
@@ -10,6 +10,7 @@
 
 <script setup>
 import HeroSection from '../sections/HeroSection.vue'
+import Hero from '../components/Hero.vue'
 import FeaturesSection from '../sections/FeaturesSection.vue'
 import Testimonials from '../sections/Testimonials.vue'
 import PricingSection from '../sections/PricingSection.vue'

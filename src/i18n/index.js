@@ -739,9 +739,12 @@ pricing: {
   },
 }
 
+const savedLocale = localStorage.getItem('locale') || 'en'
+
+
 export default createI18n({
   legacy: false,
-  locale: 'en',
+  locale: savedLocale,
   fallbackLocale: 'en',
   messages,
 })

@@ -149,7 +149,9 @@ const menus = computed(() => [
 
 // Toggle Language
 const toggleLang = () => {
-  locale.value = locale.value === 'en' ? 'km' : 'en'
+  const newLocale = locale.value === 'en' ? 'km' : 'en'
+  locale.value = newLocale
+  localStorage.setItem('locale', newLocale)
 }
 
 // Toggle Dark Mode

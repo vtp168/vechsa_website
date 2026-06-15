@@ -5,13 +5,9 @@ export default {
     extend: {
       fontFamily: {
 
-        sans: [
-          'Kantumruy Pro',
-          'Inter',
-          'sans-serif',
-        ],
+        sans: [ 'Fira Sans', 'sans-serif', ],
 
-        kantumruy: [
+        khmer: [
           'Kantumruy Pro',
           'sans-serif',
         ],
